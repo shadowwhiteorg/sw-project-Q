@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Photon/QuantumAsteroids/Scenes/AsteroidsGameplay.unity
+    guid: 3136b9496174b5049b474ae4480bee65
   m_configObjects: {}
