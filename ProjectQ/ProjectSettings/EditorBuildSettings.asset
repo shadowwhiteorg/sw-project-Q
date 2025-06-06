@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/QuantumUser/Scenes/QuantumSimpleConnectionScene.unity
+    guid: 495f89f7bb997304f848ed39949ee75b
+  - enabled: 1
+    path: Assets/QuantumUser/Scenes/QuantumGameScene.unity
+    guid: c380f24cdc77caf488127b939daa2570
+  - enabled: 1
+    path: Assets/Photon/QuantumMenu/QuantumSampleMenu.unity
+    guid: f23d3edd333e1dc449a4688e04123759
+  - enabled: 1
     path: Assets/Photon/QuantumAsteroids/Scenes/AsteroidsGameplay.unity
     guid: 3136b9496174b5049b474ae4480bee65
   m_configObjects: {}
