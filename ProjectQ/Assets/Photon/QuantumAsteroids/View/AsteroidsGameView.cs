@@ -46,9 +46,12 @@ namespace Quantum.Asteroids
       Camera3D.gameObject.SetActive(true);
 #endif
     }
-
     /// <summary>
-    /// Updates the game view, including the level text and scoreboard.
+    /// <para>
+    /// Accessing PlayerNickname every frame can be inefficient if it involves repeated lookups or allocations.
+    /// Caching nicknames when players join and reusing them during frame updates reduces redundant operations,
+    /// leading to improved performance and lower CPU usage.
+    /// </para>
     /// </summary>
     public override void OnUpdateView()
     {
